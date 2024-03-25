@@ -1,14 +1,15 @@
 #include <stdio.h>
+
 /**
- * main - Entry Point
+ * main- Entry point
  *
- * Description: Using printf function to output a stderr
+ * Description: A program that prints to standard error
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (success)
  */
 int main(void)
 {
 	fprintf(stderr,
-			"and that piece of art is useful\" -Dora Korpar, 2015-10-19\n");
+			"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
